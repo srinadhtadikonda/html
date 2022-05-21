@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form name="fm1">
+<label for="fname">First Name</label><input type="text" name="fna"  id="fname" placeholder="First Name" required autofocus><br><br>
+<label for="lname">Last Name</label><input type="text" name="lna" id="lname" placeholder="Last Name" required><br><br>
+<label for="course">COURSE:</label>
+    <input type="checkbox" name="course" id="course" value="dca">DCA
+    <input type="checkbox" name="course"  id="course" value="wdev">WEB DEVELOPER
+    <input type="checkbox" name="course"  id="course" value="wdes">WEB DESIGNER
+        </form><br><br>
+<label for="fees">FEE:</label>
+<input type="radio" id="fees" value="cash" name="fees" checked > cash 
+<input type="radio" id="fees" value="cheque" name="fees"> cheque
+<input type="radio" id="fees" value="dd" name="fees"> dd <br><br>
+<label for="aplc">PLACE:</label><select name="apl" id="aplc">
+    <option value="ongole">ONGOLE</option>
+    <option value="nellore">NELLORE</option>
+    <option value="guntur">GUNTUR</option>
+    <option value="tirupathi">TIRUPATHI</option>
+    <option value="gudur">GUDUR</option>
+    <option value="vijayawada">VIJAYAWADA</option>
+</select><br><br>
+
+<label for="bqa">BASIC QUALIFICATION:</label><select multiple=true name="bq" id="bqa">
+    <option value="ssc">SSC</option>
+    <option value="inter">INTER</option>
+    <option value="degree">DEGREE</option>
+    <option value="pg">PG</option>
+    <option value="diploma">DIPLOMA</option>
+</select><br><br>
+<label for="aadr">Address:</label><textarea name="adr" id="aadr"></textarea><br><br>
+<input type="submit" value="submit"><input type="reset" value="reset">
+</form>
+    </body>
+</html>

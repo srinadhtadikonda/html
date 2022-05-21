@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <style type="text/css">
+            body
+            {
+                background-color: bisque;
+            }
+table,tr,td
+{
+    border-collapse:collapse;
+    border-style:none;
+}
+.d1
+{
+    background-color:darkmagenta;
+    width:200px;
+    height:100px;
+    margin-left: 600px;
+    margin-top:250px;
+    color:yellow;
+    box-shadow: 4px 4px 4px #000000;
+    padding:20px 20px 20px 20px;
+}
+        </style>
+    </head>
+    <body>
+        <form name="fm1">
+        <div class="d1">
+        <table>
+<tr><td><label for="aval">A</label><input type="number" id="v1" name="aval" placeholder="a value" required focus></td></tr>
+<tr><td><label for="bval">B</label><input type="number" id="v2" name="bval" placeholder="a value" required></td></tr>
+<tr><td><label for="cval">C</label><input type="number" id="v3" name="cval" placeholder="a value" disabled></td></tr>
+<tr><td style="position:relative;left:20px;">
+<input type="button" value="+" onclick="mysum()">
+<input type="button" value="-">
+<input type="button" value="*">
+<input type="button" value="/">
+<input type="button" value="%">
+<input type="button" value="<-" onclick="reset()"></td></tr>
+</table>
+</div>
+</form>
+</body>
+<script type="text/javascript">
+    function mysum()
+    {
+        a=parseInt(document.getElementById("v1").value)
+        b=parseInt(document.getElementById("v2").value)
+        c=a+b
+        document.getElementById("v3").value=c
+    }
+    </script>
+</html>
