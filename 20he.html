@@ -34,10 +34,10 @@ table,tr,td
 <tr><td><label for="cval">C</label><input type="number" id="v3" name="cval" placeholder="a value" disabled></td></tr>
 <tr><td style="position:relative;left:20px;">
 <input type="button" value="+" onclick="mysum()">
-<input type="button" value="-">
-<input type="button" value="*">
-<input type="button" value="/">
-<input type="button" value="%">
+<input type="button" value="-" onclick="mysub()">
+<input type="button" value="*" onclick="mymul()">
+<input type="button" value="/" onclick="mydiv()">
+<input type="button" value="%" onclick="mymod()">
 <input type="button" value="<-" onclick="reset()"></td></tr>
 </table>
 </div>
@@ -51,5 +51,34 @@ table,tr,td
         c=a+b
         document.getElementById("v3").value=c
     }
+    function mysub()
+    {
+        a=parseInt(document.getElementById("v1").value)
+        b=parseInt(document.getElementById("v2").value)
+        c=a-b
+        document.getElementById("v3").value=c
+    }
+    function mymul()
+    {
+        a=parseInt(document.getElementById("v1").value)
+        b=parseInt(document.getElementById("v2").value)
+        c=a*b
+        document.getElementById("v3").value=c
+    }
+    function mydiv()
+    {
+        a=parseInt(document.getElementById("v1").value)
+        b=parseInt(document.getElementById("v2").value)
+        c=a/b
+        document.getElementById("v3").value=c
+    }
+    function mymod()
+    {
+        a=parseInt(document.getElementById("v1").value)
+        b=parseInt(document.getElementById("v2").value)
+        c=a%b
+        document.getElementById("v3").value=c
+    }
+
     </script>
 </html>
