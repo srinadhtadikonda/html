@@ -1,0 +1,376 @@
+HTML 5
+
+HTML stands for Hyper Text Markup Language which is used to author webpages.
+HTML is used to design static webpages.
+HTML was developed by Tim Berners Lee.
+
+
+<!doctype html>
+<html>
+<head>
+<title>.....</title>
+<meta charset="UTF-8">
+</head>
+<body>
+..............................................
+..............................................
+........................................
+</body>
+</html>
+
+
+Tag:
+	A pre-defined html command that is placed in between the brackets is called a tag.
+	<p>....................</p>
+                beginning 	       Ending 
+               tag                        tag
+
+Attribute: The extra property set with tag is called attribute
+
+	<font face="verdana">.....</font>
+
+
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+            </head>
+            <body>
+                Today I started learning html and learning html is fun.
+            </body>
+</html>
+
+Headings
+
+
+          <h1>INTRODUCTION TO WEB TECHNOLOGIES</h1>
+        <h2>INTRODUCTION TO WEB TECHNOLOGIES</h2>
+        <h3>INTRODUCTION TO WEB TECHNOLOGIES</h3>
+        <h4>INTRODUCTION TO WEB TECHNOLOGIES</h4>
+        <h5>INTRODUCTION TO WEB TECHNOLOGIES</h5>
+        <h6>INTRODUCTION TO WEB TECHNOLOGIES</h6>
+ Heading Alignments
+
+        <h1 align="center">INTRODUCTION TO WEB TECHNOLOGIES</h1>
+        <h2 align="right">INTRODUCTION TO WEB TECHNOLOGIES</h2>
+        <h3 align="left">INTRODUCTION TO WEB TECHNOLOGIES</h3>
+
+  <h1 align="center"><font face="verdana"  color="red">INTRODUCTION TO WEB TECHNOLOGIES</font></h1> 
+
+
+
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+<h3 align="center"><font color="red" face="impact">INTRODUCTION TO COMPUTERS</font></h3>
+
+<p>
+    <font family="verdana" size="5" color="green">
+    Computer is an electronic device which is used to perform arithmetical and logical opertions.
+    The word computer is derived from the Greek word compute which means to calculate.
+</font>
+</p>
+<p>
+    <font family="script" size="3" color="blue">
+        The characteristics of computer<br>
+        speed<br>
+        accuracy<br>
+        diligence<br>
+        iq<br>
+        versatitlity<br>
+        feelings
+    </font>
+    
+</p>
+    </body>
+    
+</html>
+
+
+
+
+
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+<h6>Text Styles</h6>
+
+<b>I Like Coding</b><br>
+<u>I Like Coding</u><br>
+<i>I Like Coding</i><br>
+<strike>I Like Coding</strike><br>
+<s>I Like Coding</s><br>
+<strong>I Like Coding</strong><br>
+<em>I Like Coding</em><br>
+<big>I Like Coding</big><br>
+<small>I Like Coding</small><br>
+<tt>I Like Coding</tt><br>
+<cite>I Like Coding</cite><br>
+All INDIA RADIO<abbr>AIR</abbr><br>
+
+<blockquote>AN APPLE A DAY KEEPS DOCTOR AWAY</blockquote><br>
+
+
+(a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab<br>
+
+H<sub>2</sub>SO<sub>4</sub>
+
+<address>
+    BRILLIANT
+    ANJAIAH ROAD
+    ONGOLE
+</address>
+
+<pre>
+    An Apple A Day Keeps Doctor away
+    An Apple A Day Keeps Doctor away
+    An Apple A Day Keeps Doctor away
+    An Apple A Day Keeps Doctor away
+</pre>
+
+<bdo dir="ltr">ALL INDIA RADIO</bdo><br>
+<bdo dir="rtl">ALL INDIA RADIO</bdo><br>
+A <del>Orange</del><ins>Apple</ins>A Day Keeps doctor away.<br>
+<mark>HACKING IS FUN.</mark><br>
+<q>Coding is Fun.</q>
+<code>
+    #include<stdio.h><br>
+    #include<conio.h><br>
+        main()<br>
+        {<br>
+            printf("welcome to c");<br>
+        }
+</code><br>
+
+
+<div>
+    Computer is an electronic device which is used to perform arithmetical and logical opertions.
+    The word computer is derived from the Greek word compute which means to calculate.
+<span>The father of modern digital computers is charles babbage</span>
+</div>
+    </body>
+</html>
+
+
+
+
+<!doctype html>
+<html>
+    <head>
+        <title>SCIENCE</title>
+    </head>
+    <body>
+        <h4 align="center"><u><font face="impact">Sources Of Food</font></u></h4>
+        <p>
+<font color="red" face="verdana">FOODS OD DIFFERENT TYPES</font></p>
+
+<p><font face="times new roman">
+Do human beings, animals,birds,fishes,insects,etc., eat the same type of food?
+The answer to his quwestion is no. It means that, <font color="magenta"><b>
+different organisms eat differnt types of food".</font></b> e.g.<u> Grass may not be
+useful for you but it is the main food for cow,deer and buffalo.</u>
+</font></p>
+    </body>
+</html>
+
+
+Lists:
+<!---Code for Unordered List -->
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <ul>
+            <li>PEN</li>
+            <li>PENCIL</li>
+            <li>BOOK</li>
+            <li>ERASER</li>
+            <li>Sharpener</li>
+        </ul>
+
+    </body>
+</html>
+
+<!---Code for Unordered List -->
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <ul>
+            <li>PEN</li>
+            <li>PENCIL</li>
+            <li>BOOK</li>
+            <li>ERASER</li>
+            <li>Sharpener</li>
+        </ul>
+<hr>
+<ul type="square">
+    <li>PEN</li>
+    <li>PENCIL</li>
+    <li>BOOK</li>
+    <li>ERASER</li>
+    <li>Sharpener</li>
+</ul>
+<hr>
+<ul type="circle">
+    <li>PEN</li>
+    <li>PENCIL</li>
+    <li>BOOK</li>
+    <li>ERASER</li>
+    <li>Sharpener</li>
+</ul>
+<hr>
+<ul type="disc">
+    <li>PEN</li>
+    <li>PENCIL</li>
+    <li>BOOK</li>
+    <li>ERASER</li>
+    <li>Sharpener</li>
+</ul>
+    </body>
+</html>
+
+
+<!---Code for ordered List -->
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <ol>
+            <li>PEN</li>
+            <li>PENCIL</li>
+            <li>BOOK</li>
+            <li>ERASER</li>
+            <li>Sharpener</li>
+        </ol>
+
+    </body>
+</html>
+
+
+<!---Code for Unordered List -->
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <ol>
+            <li>PEN</li>
+            <li>PENCIL</li>
+            <li>BOOK</li>
+            <li>ERASER</li>
+            <li>Sharpener</li>
+        </ol>
+<hr>
+<ol type="I">
+    <li>PEN</li>
+    <li>PENCIL</li>
+    <li>BOOK</li>
+    <li>ERASER</li>
+    <li>Sharpener</li>
+</ol>
+<hr>
+<ol type="i">
+    <li>PEN</li>
+    <li>PENCIL</li>
+    <li>BOOK</li>
+    <li>ERASER</li>
+    <li>Sharpener</li>
+</ol>
+<hr>
+<ol type="A">
+    <li>PEN</li>
+    <li>PENCIL</li>
+    <li>BOOK</li>
+    <li>ERASER</li>
+    <li>Sharpener</li>
+</ol>
+<hr>
+<ol type="a">
+    <li>PEN</li>
+    <li>PENCIL</li>
+    <li>BOOK</li>
+    <li>ERASER</li>
+    <li>Sharpener</li>
+</ol>
+    </body>
+</html>
+
+
+
+<!---Code for Definition List -->
+<!doctype html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <dl>
+            <dt>HARDWARE</dt>
+            <dd>Input Devices</dd>
+            <dd>Output Devices</dd>
+            <dd>Storage Devices</dd>
+            <dt>SOFTWARE</dt>
+            <dd>Application</dd>
+            <dd>System</dd>
+            <dd>Utilities</dd>
+        </dl>
+        
+    </body>
+</html>
+
+
+
+<!doctyppe html>
+<html>
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <a href="https://www.eenadu.net">EENADU</a>
+        <a href="https://www.sakshi.com">SAKSHI</a>
+        <a href="https://www.brilliantcomputers.in">BRILLIANT</a>
+    </body>
+</html>
+
+<!-- HTML code demo to display an icon in an address bar-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8" />
+<title>
+EDUCBA  icon
+</title>
+<link rel = "icon" href =https://favi.png  type = "image/x-icon">
+</head>
+<body>
+<h1 style = "color:blue;">
+EDUCBA Icon
+</h1>
+<p>
+Icon is added to the address bar
+</p>
+</body>
+</html>
