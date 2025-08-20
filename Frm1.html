@@ -1,43 +1,85 @@
-<!doctype html>
-<html>
-    <head>
-        <title>demo</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <style>
+    fieldset {
+  border: 1px solid #ccc;
+}
+
+legend {
+  padding: 0 5px;
+  font-size: 14px;
+}
+  </style>
+</head>
+<body>
   <form name="fm1">
 
-<label>First Name</label><input type="text" name="fna"   placeholder="First Name" required autofocus><br><br>
-
-<label>Last Name</label><input type="text" name="lna" placeholder="Last Name" required><br><br>
-
-<label>COURSE:</label>
-    <input type="checkbox" name="course"  value="dca">DCA
-    <input type="checkbox" name="course"  value="wdev">WEB DEVELOPER
-    <input type="checkbox" name="course"   value="wdes">WEB DESIGNER
+    <label for="fna">First Name:</label>
+    <input type="text" id="fna" name="fna" placeholder="First Name" required autofocus>
     <br><br>
-<label>FEE:</label>
-<input type="radio"  value="cash" name="fees" checked > cash 
-<input type="radio" value="cheque" name="fees"> cheque
-<input type="radio" value="dd" name="fees"> dd <br><br>
-<label>PLACE:</label><select name="apl">
-    <option value="ongole">ONGOLE</option>
-    <option value="nellore">NELLORE</option>
-    <option value="guntur">GUNTUR</option>
-    <option value="tirupathi">TIRUPATHI</option>
-    <option value="gudur">GUDUR</option>
-    <option value="vijayawada">VIJAYAWADA</option>
-</select><br><br>
 
-<label>BASIC QUALIFICATION:</label><select multiple name="bq">
-    <option value="ssc">SSC</option>
-    <option value="inter">INTER</option>
-    <option value="degree">DEGREE</option>
-    <option value="pg">PG</option>
-    <option value="diploma">DIPLOMA</option>
-</select><br><br>
-<label>Address:</label><textarea name="adr"></textarea><br><br>
-<input type="submit" value="submit"><input type="reset" value="reset" onclick="reset()">
-</form>
+    <label for="lna">Last Name:</label>
+    <input type="text" id="lna" name="lna" placeholder="Last Name" required>
+    <br><br>
+
+    <fieldset style="width:300px;">
+      <legend>Course:</legend>
+      <input type="checkbox" id="dca" name="course" value="dca">
+      <label for="dca">DCA</label>
+
+      <input type="checkbox" id="wdev" name="course" value="wdev">
+      <label for="wdev">Web Developer</label>
+
+      <input type="checkbox" id="wdes" name="course" value="wdes">
+      <label for="wdes">Web Designer</label>
+    </fieldset>
+    <br>
+
+    <fieldset style="width:300px;">
+      <legend>Fee:</legend>
+      <input type="radio" id="cash" name="fees" value="cash" checked>
+      <label for="cash">Cash</label>
+
+      <input type="radio" id="cheque" name="fees" value="cheque">
+      <label for="cheque">Cheque</label>
+
+      <input type="radio" id="dd" name="fees" value="dd">
+      <label for="dd">DD</label>
+    </fieldset>
+    <br>
+
+    <label for="apl">Place:</label>
+    <select id="apl" name="apl">
+      <option value="ongole">Ongole</option>
+      <option value="nellore">Nellore</option>
+      <option value="guntur">Guntur</option>
+      <option value="tirupathi">Tirupathi</option>
+      <option value="gudur">Gudur</option>
+      <option value="vijayawada">Vijayawada</option>
+    </select>
+    <br><br>
+
+    <label for="bq">Basic Qualification:</label>
+    <select id="bq" name="bq" multiple>
+      <option value="ssc">SSC</option>
+      <option value="inter">Inter</option>
+      <option value="degree">Degree</option>
+      <option value="pg">PG</option>
+      <option value="diploma">Diploma</option>
+    </select>
+    <br><br>
+
+    <label for="adr">Address:</label>
+    <textarea id="adr" name="adr"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    
+  </form>
 </body>
 </html>
